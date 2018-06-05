@@ -1,0 +1,21 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+Variant = "";
+
+U"EQUALS" : SYS"POWERDOWN";
+U"FUNCTION1" : CONS"SCANPREVIOUSTRACK";
+U"W" : SYS"WAKEUP";
+U"D" : CONS"FASTFORWARD";
+U"S" : CONS"STOP";
+U"A" : CONS"REWIND";
+U"Z" : SYS"SLEEP";
+U"LBRACE" : CONS"SCANNEXTTRACK";
+U"P" : CONS"PAUSEPLAY";
+U"M" : CONS"MUTE";
+
